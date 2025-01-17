@@ -1,16 +1,3 @@
 # flutter_data_caching_example
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Project comes up with network caching data using dio client and interceptors follwed by internet checker package and the data is loaded at the opening of app follwed by hive database for storeage of loaded data and if there is no internet the stored data from hive is presented in the ui and wiseversa the statement used in this project is provider follwed by the dependency injection using getit package. 
